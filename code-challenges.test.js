@@ -90,4 +90,4 @@ const addUpVotes = (votes) => {
 
 // b) Create the function that makes the test pass.
 
-// Pseudo code: I found the final result the total number of votes by subtracting downvotes from upvotes, then returned the total number of votes.
+// Pseudo code: I found the final result the total number of votes by subtracting downvotes from upvotes, then returned the total number of up votes and down votes.
