@@ -23,6 +23,7 @@ class Bike
     def brake(speed_decrease)
       @current_speed = [@current_speed - speed_decrease, 0].max
     end
+    
     #This is just generating the sentence/string, and using string interpolation.
     def bike_info
       "The #{@model} bike has #{@wheels} wheels and is going #{current_speed} mph."
